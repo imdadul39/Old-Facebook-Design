@@ -1,0 +1,262 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Sans.woff);
+}
+a {
+	color: #3A5795;
+}
+
+body {
+	margin: 0;
+	font-family: tahoma;
+}
+.header-area {
+	overflow: hidden;
+	background: #3A5795;
+	padding: 10px 0;
+}
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+.logo-area {
+	width: 30%;
+	float: left;
+	overflow: hidden;
+}
+.logo-area img {
+	margin-top: 10px;
+}
+.login-area {
+	overflow: hidden;
+	width: 70%;
+}
+
+.login-area form {
+	float: right;
+}
+.login-area input {
+	display: block;
+}
+.login-area label {
+	display: block;
+	color: #FFFFFF;
+	font-family: tahoma;
+	font-size: 13px;
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+
+.login-area [type="checkbox"] {
+	float: left;
+	margin-left: 0;
+}
+.login-area [type="checkbox"] + label {
+	margin-top: 2px;
+	color: #96B0BE;
+}
+.login-first {
+	float: left;
+	overflow: hidden;
+	margin-right: 14px;
+}
+
+.loging-second {
+	overflow: hidden;
+	float: left;
+	margin-right: 14px;
+}
+.loging-second a {
+	color: #96B0BE;
+	font-family: tahoma;
+	font-size: 13px;
+	text-decoration: none;
+}
+.loging-second a:hover {
+	text-decoration: underline;
+}
+.login-submit {
+	float: left;
+	overflow: hidden;
+}
+.login-submit input {
+	border: 1px solid #1A356E;
+	margin-top: 17px;
+	background: #6179AC;
+	color: #FFFFFF;
+	padding: 2px 5px;
+	font-size: 13px;
+	cursor: pointer;
+}
+.login-submit input:hover {
+	background: #3A5795;
+}
+
+
+@media all and (max-width: 680px) {
+	.logo-area {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.login-area {
+		width: 100%;
+	}
+
+	.login-area form {
+		float:none;
+		width:365px;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 440px) {
+	.login-area [type="text"] {
+		width: 100%;
+	}
+	.login-area [type="Password"] {
+		width: 100%;
+	}
+	.login-first {
+		float: none;
+		margin-right: 0;
+	}
+	
+	.loging-second {
+		float: none;
+		margin-right: 0;
+	}
+	.login-area [type="checkbox"] {
+		float: left;
+		margin-left: 0;
+	}
+}
+
+.main-area {
+	overflow: hidden;
+	background: linear-gradient(#FFFFFF, #8D9DC1);
+}
+.main-left {
+	width: 50%;
+	float: left;
+	margin-right: 15%;
+}
+.main-left h2 {
+	font-family: myFirstFont;
+	color: #0E3872;
+	font-size: 25px;
+	margin-top: 40px;
+	line-height: 25px;
+}
+.main-left img {
+	width: 100%;
+	margin: 0 auto;
+}
+.main-right {
+	width: 35%;
+	overflow: hidden;
+}
+.main-right h1 {
+	color: #000000;
+	font-size: 35px;
+	font-family: tahoma;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.main-right h3 {
+	margin-top: 0;
+	font-weight: normal;
+}
+.main-right input[placeholder] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #CDD5E2;
+	box-sizing: border-box;
+	font-size: 20px;
+	color: #596275;
+	border-radius: 5px;
+}
+.signup-name input:first-child {
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+	overflow: hidden;
+}
+.signup-name input:last-child {
+	margin-right: 0;
+	width: 48%;
+	overflow: hidden;
+}
+.birth-day {
+	overflow: hidden;
+}
+.birth-day h2 {
+	font-weight: normal;
+	font-size: 20px;
+}
+.birth-day select {
+	padding: 3px;
+	border: 1px solid #A6ABB5;
+	border-radius: 2px;
+}
+.birth-day a {
+	color: #3A5795;
+	font-family: tahoma;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+a:hover {
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+}
+.gender-area {
+	overflow: hidden;
+	margin-top: 15px;
+}
+.main-right p {
+	color: #666666;
+	font-size: 12px;
+}
+
+.main-area input[type="submit"] {
+	color: #FFFFFF;
+	padding: 10px 20px;
+	background: linear-gradient(#81C06A, #598C45);
+	border: 1px solid #375F20;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.main-area input[type="submit"]:hover {
+	background: linear-gradient(#598C45, #81C06A);
+}
+.main-area hr {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid #A0A9C0;
+}
+.main-area h3 {
+	color: #6D6E70;
+	font-size: 16px;
+}
+.create {
+	font-size: 16px;
+	text-decoration: none;
+	margin: 10px 0 22px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
